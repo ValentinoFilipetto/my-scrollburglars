@@ -146,6 +146,16 @@ a {
   }
 }
 
+/* This is one possible solution. Overflow: hidden eliminates the 
+scrollburglars, and the media query makes it so that the scroll effect 
+for thew icons on the left is kept as it is. */
+
+@media (max-width: 835px) {
+  main {
+    overflow: hidden;
+  }
+}
+
 .heading-decoration {
   position: absolute;
   top: -25px;
